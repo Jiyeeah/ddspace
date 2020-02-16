@@ -4,7 +4,7 @@ email:              "jiyea0017@example.com"
 description:        "시시각각 빠르게 변하는 마케팅 월드. 트렌드 파악도 어려운데 이젠 technology까지 필요하다? 마케터를 위한 본격 마케팅 Tech 조지기 블로그! 하지만 언제나 조져지는 것은 나였다..."
 author:             "JiyePark"
 baseurl:            "/"
-url:                "https://ddspace.com"
+url:                "https://ddspace.kr"
 locale:             "ko_KR"
 thumbnail:          "/img/thumbnail.jpg"
 
