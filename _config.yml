@@ -1,0 +1,29 @@
+title:              "Marketing Technology 101"
+tagline:            "Marketing Technology For Beginners"
+email:              "jiyea0017@example.com"
+description:        "시시각각 빠르게 변하는 마케팅 월드. 트렌드 파악도 어려운데 이젠 technology까지 필요하다? 마케터를 위한 본격 마케팅 Tech 조지기 블로그! 하지만 언제나 조져지는 것은 나였다..."
+author:             "JiyePark"
+baseurl:            "/"
+url:                "https://ddspace.com"
+locale:             "ko_KR"
+thumbnail:          "/img/thumbnail.jpg"
+
+# Social Profiles
+twitter_username:   jiyea0017gmail1
+instagram_username: ji_yeeah
+facebook_username:  jiyea0017
+linkedin_username:  jiyepark
+
+# Build settings
+markdown:           kramdown
+permalink:          /:title
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# 블로그 disqus shortname
+disqus:
+  shortname: ddspace
