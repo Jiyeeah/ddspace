@@ -6,7 +6,7 @@ date: 2020-03-07 11:30:00 +09:00
 feature: '/img/posts/4th/thumbnail.jpg'
 background: '/img/posts/4th/header.jpg'
 categories:
-  - Martech
+  - Mobile
 tags:
   - 마테크
   - MarketingTechnology
