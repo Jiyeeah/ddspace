@@ -6,7 +6,7 @@ date: 2020-02-02 11:30:00 +09:00
 feature: '/img/posts/1st/feature_start-posting.jpg'
 background: '/img/posts/1st/bg_start-posting.jpg'
 categories:
-  - Matech
+  - Martech
 tags:
   - 마테크
   - MarketingTechnology
