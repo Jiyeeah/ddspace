@@ -37,7 +37,7 @@ description: 모바일 사용자 트래킹을 위한 대표적인 3가지 방식
 
 예를들면 특정 기기가 내 광고를 봤는지, 특정 기기가 내 앱을 설치했는지, 앱 설치 이후에는 얼마나 상호작용을 하고 있는지 모바일 기기 광고ID를 활용해 알 수 있다. 하지만 디지털 환경 내 모든 트래킹이 그렇듯 100퍼센트의 정확도를 가질 수 없다. 유저가 원할 경우 ID변경이 가능하며, 모바일 기기 광고ID 정보 제공을 거부할 수 있기 때문이다. 
 
-*참고링크*
+*참고링크*<br>
 <https://support.google.com/authorizedbuyers/answer/3221407?hl=ko>
 <https://www.adjust.com/glossary/device-id/>
 <https://www.adjust.com/glossary/idfa/>
@@ -58,7 +58,7 @@ description: 모바일 사용자 트래킹을 위한 대표적인 3가지 방식
 
 Google Play Store에 한정해서는 100퍼센트의 정확성을 가진다는 장점이 있지만, iOS 및 그밖의 앱스토어에서는 활용 불가하다는 치명적인 단점을 가지고 있다. 다이나믹 링크를 통해 동일한 정보를 넘기는 식으로 단점을 보완할 수 있다. (우리 회사 엔지니어분들께서는 다이나믹 링크를 활용하는 방법을 더욱 선호하는 편이시라고)
 
-*참고링크*
+*참고링크*<br>
 <https://developer.android.com/google/play/installreferrer>
 <https://www.adjust.com/glossary/install-referrer/>
 
@@ -72,7 +72,7 @@ Google Play Store에 한정해서는 100퍼센트의 정확성을 가진다는 �
 
 해당 정보들을 조합해 동일 사용자의 가능성을 유추하는 방식으로, 당연히 정확성에서 문제가 될 수 있다. 그래서 대개 사용자 식별 방식에서 최하의 우선순위를 갖는다. 모바일 기기 광고ID, Install Referrer로 확인이 안되는 사용자에 한해 핑거프린트 방식을 적용해 사용자를 찾아내는 것이다. 실제로 대다수의 MAT에서는 우선순위와 적용하는 트래킹 방법의 차이만 있을 뿐, 이런 식으로 사용자를 유추한다. 
 
-*참고링크*
+*참고링크*<br>
 <https://www.appsflyer.com/resources/fingerprinting-for-mobile-attribution/>
 <https://www.adjust.com/glossary/fingerprinting/>
 
