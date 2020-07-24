@@ -52,9 +52,12 @@ layout: default
 
   {% include disqus.html %}
   <!-- dataLayer -->
-<script>
-  dataLayer.push({
-  'event': 'viewContent'
-});
-</script>
-<!-- End dataLayer -->
+  <!-- dataLayer -->
+  <script>
+    dataLayer.push({
+    'event': 'viewContent',
+    'contentTitle':{{ page.title }},
+    'contentId':{{ page.content_id}}
+  });
+  </script>
+  <!-- End dataLayer -->
