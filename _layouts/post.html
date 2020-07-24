@@ -51,14 +51,3 @@ layout: default
   </article>
 
   {% include disqus.html %}
-
-
-    <!-- dataLayer -->
-    <script>
-      dataLayer.push({
-      'event': 'viewContent',
-      'contentTitle':{{page.title}},
-      'contentId':{{page.permalink}}
-    });
-    </script>
-    <!-- End dataLayer -->
