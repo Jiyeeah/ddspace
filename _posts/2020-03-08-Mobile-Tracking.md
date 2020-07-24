@@ -15,7 +15,7 @@ tags:
   - 모바일환경
   - MAT
 description: 모바일 사용자 트래킹을 위한 대표적인 3가지 방식, 모바일 기기 광고ID(ADID/IDFA), Referral, Finger Print 활용 방식에 대해 자세히 알아보자.
-
+content_id: "004"
 ---
 
 가장 대표적인 모바일 사용자 트래킹 방식은 뭘까?

@@ -16,6 +16,7 @@ tags:
   - 애드테크
   - GMP
 description: 구글 마케팅 플랫폼의 전환 트래킹 시스템이자 픽셀, Floodlight를 알아봅니다.
+content_id: "008"
 ---
 ### Floodlight란?
 
