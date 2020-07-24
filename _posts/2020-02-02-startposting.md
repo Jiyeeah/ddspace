@@ -5,6 +5,7 @@ title: '마테크 블로그를 시작하며'
 date: 2020-02-02 11:30:00 +09:00
 feature: '/img/posts/1st/feature_start-posting.jpg'
 background: '/img/posts/1st/bg_start-posting.jpg'
+content_id:'/marteck/start-posting/'
 categories:
   - Martech
 tags:

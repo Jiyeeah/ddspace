@@ -5,6 +5,7 @@ title: 'Google Marketing Platform의 전환 트래킹 시스템, Floodlight'
 date: 2020-05-02 11:30:00 +09:00
 feature: '/img/posts/8th/thumbnail.jpg'
 background: '/img/posts/8th/header.jpg'
+content_id:'/gmp/aboutfloodlight/'
 categories:
   - GMP
 tags:

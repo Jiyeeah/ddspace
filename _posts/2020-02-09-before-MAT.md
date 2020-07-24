@@ -5,6 +5,7 @@ title: '웹과 다른 모바일 환경'
 date: 2020-02-09 10:30:00 +09:00
 feature: '/img/posts/2nd/thumbnail.jpg'
 background: '/img/posts/2nd/header.jpg'
+content_id:'/mobile/before-MAT/'
 categories:
   - Mobile
 tags:

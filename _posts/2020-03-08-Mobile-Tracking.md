@@ -5,6 +5,7 @@ title: '모바일 사용자 트래킹 방식'
 date: 2020-03-07 11:30:00 +09:00
 feature: '/img/posts/4th/thumbnail.jpg'
 background: '/img/posts/4th/header.jpg'
+content_id:'/mobile/Mobile-Tracking/'
 categories:
   - Mobile
 tags:

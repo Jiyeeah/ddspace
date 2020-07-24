@@ -5,6 +5,7 @@ title: 'Campaign Manager의 시작, Trafficking! 1. CM 하이어라키부터 알
 date: 2020-07-12 11:30:00 +09:00
 feature: '/img/posts/11th/thumbnail.jpg'
 background: '/img/posts/11th/header.jpg'
+content_id:'/gmp/CMhierarchy/'
 categories:
   - GMP
 tags:
