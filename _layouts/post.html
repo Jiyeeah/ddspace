@@ -23,16 +23,6 @@ layout: default
     </div>
   </header>
 
-  <!-- dataLayer -->
-  <script>
-    dataLayer.push({
-    'event': 'viewContent',
-    'contentTitle':page.title,
-    'contentId':page.permalink
-  });
-  </script>
-  <!-- End dataLayer -->
-
   <article id="post-content">
     <div class="container">
       <div class="row">
@@ -61,3 +51,14 @@ layout: default
   </article>
 
   {% include disqus.html %}
+
+
+    <!-- dataLayer -->
+    <script>
+      dataLayer.push({
+      'event': 'viewContent',
+      'contentTitle':page.title,
+      'contentId':page.permalink
+    });
+    </script>
+    <!-- End dataLayer -->
