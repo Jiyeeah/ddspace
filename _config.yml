@@ -7,6 +7,7 @@ baseurl:            "/"
 url:                "https://ddspace.kr"
 locale:             "ko_KR"
 thumbnail:          "/img/thumbnail.jpg"
+content_id:         "000"
 
 # Social Profiles
 twitter_username:   jiyea0017gmail1
