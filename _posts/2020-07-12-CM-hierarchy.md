@@ -16,7 +16,7 @@ tags:
   - 애드테크
   - GMP
 description: 구글 마케팅 플랫폼의 중심에 있는 Campaign Manager 첫걸음, Trafficking! Trafficking을 시작하며 반드시 알고 있어야할 CM 하이어라키 구조부터 알아보겠습니다.
-content_id:'/gmp/CMhierarchy/'
+content_ids:'/gmp/CMhierarchy/'
 
 
 ---
