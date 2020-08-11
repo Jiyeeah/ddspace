@@ -19,8 +19,6 @@ content_id: "012"
 
 ---
 
-![cm 로고 이미지](/img/posts/11th/thumbnail.jpg)
-
 두서 없이 Google Cloud Platform 공부를 시작한 탓에, 두서 없이 Google Cloud Storage 옵션들에 대해 알아보려고 한다.  **GCP Cloud Storage는 옵션에 따라 structured/unstructed data를 지원하고, transactional database 환경 형태인지 여부가 다르다**. 
 
 GCP Cloud Storage는 옵션이 어떤 데이터 형태를 지원하는지 세부 설명을 하기 전, 일종의 선수과목처럼 데이터 구조 관련 4가지 정의부터 먼저 알아보겠다.
