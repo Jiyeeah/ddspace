@@ -57,7 +57,10 @@ layout: default
     dataLayer.push({
     'contentTitle':"{{page.title}}",
     'contentId':"{{page.content_id}}",
-    'event': 'viewContent'
+    'event': 'viewContent',
+    'description': "{{page.description}}",
+    'image': "{{site.github.url}}{{page.feature}}",
+    'content_url' : "{{site.url}}{{page.url}}"
   });
   </script>
   <!-- End dataLayer -->
