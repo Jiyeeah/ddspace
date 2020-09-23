@@ -5,6 +5,35 @@
 {% include head.html %}
 
 <body>
+  <script>
+  dataLayer.push({
+   'event': 'purchase',
+   'label':'{{SKU}}|{{SKU}}', 		// Purchased products SKUs, ‘|’is used as separator between SKUs if multiple products are considered
+   'siteType': '{{site type}}',		//(String) standardData.siteType
+    'pagePurpose': '{{page purpose}}',		//(String)_dl.page_name.page_purpose
+    'ecommerce': {
+      'currencyCode': '{{Currency}}', 		//(String)Specify local currency ex)EUR
+      'purchase': {
+        'actionField':{
+          'id' : '{{transaction ID}}', 		//(String) unique transaction ID assigned to each transaction
+          'revenue' : 20000, 		//(double) total revenue or grand total including tax and shipping cost
+         	//(double)The shipping cost associated with the transaction, Optional
+        },
+        'products': [{
+          'id': '{{SKU}}', 		                  	//(String) _dl.page_name.sku
+          'name': '{{sales_model_code}}',       		//(String) _dl.products[{{number}}].sales_model_code
+          'price': {{price}}, 		                  	//(Double) Specify product price per 1 unit
+    		//(String) Displayed name of the product. ex) LG TONE Flex HBS-XL7 Bluetooth Wireless Stereo Headset
+        },
+        {
+          'id': '{{SKU}}', 		                  	//(String) _dl.page_name.sku
+          'name': '{{sales_model_code}}',       		//(String) _dl.products[{{number}}].sales_model_code
+          		//(String) Displayed name of the product. ex) LG TONE Flex HBS-XL7 Bluetooth Wireless Stereo Headset
+        }]
+      }
+    }
+  })
+  </script>
 
   {% include navbar.html %}
 
@@ -13,7 +42,7 @@
   {% include footer.html %}
 
   {% include scripts.html %}
-  
+
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSBCZGQ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
